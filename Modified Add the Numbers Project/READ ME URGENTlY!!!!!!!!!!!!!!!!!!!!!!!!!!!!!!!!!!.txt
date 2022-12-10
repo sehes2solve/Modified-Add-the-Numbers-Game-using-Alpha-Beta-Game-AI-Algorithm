@@ -1,0 +1,27 @@
+Running the Project Methode :
+
+1- Open SWI Prolog Console.
+2- Consult or Compile the (Knowledge.pl) file 
+  (That Contains different Intial States & Possible Moves in for Any State) 
+Or use (load_files("(File Path)\\ Knowledge.pl").) rule.
+3- Consult or Compile the (Game_Engine.pl) file
+  (That Contains The game engine (rules,predicts) & it's modules) 
+Or use (load_files("(File Path)\\ Game_Engine.pl").) rule.
+Note : (Knowledge.pl) file & (Game_Engine.pl) file must two be compiled
+	    before running or the either the game engine won't find needed 
+		knowledge(Intial States & Possible Moves) to process 
+	    or the knowledge won't be processed.
+4- Enter the minimal Score For user agent to win 
+  (Enter a number then press dot(.) then press Enter).
+5- Enter the maximum number of moves the user agent allowed to play
+  (Enter a number then press dot(.) then press Enter).
+6- the first 7 moves of user agent & the first 7 response computer agent
+  (14 moves) of the total output will appear.
+7- Enter any Character (Enter a char then press dot(.) then press Enter).
+8- the following 14 moves of will appear.
+9- go to step (7) until total output is finished. 
+Note : the swi prolog console has a limit for output 
+      (which is almost can show 7 moves result at max)
+	   that's why it shows only 7 moves of total output at time until 
+	   so you can check total output parts without any part overrides 
+	   other due to console limitions.
